@@ -1,5 +1,14 @@
 require('isomorphic-fetch');
-import webpack from 'webpack';
+
+let webpack,
+  isCloud = false;
+
+try {
+  webpack = require("webpack");
+} catch (e) {
+  isCloud = true;
+  // will get here in the cloud
+}
 
 export default {
   server: {
@@ -126,7 +135,7 @@ export default {
     }
   },
   styleResources: {
-    scss: [
+    scss: !isCloud && [
       require.resolve('@storefront-ui/shared/styles/_helpers.scss', {
         paths: [process.cwd()]
       })
@@ -135,7 +144,7 @@ export default {
   build: {
     transpile: ['vee-validate/dist/rules'],
     plugins: [
-      new webpack.DefinePlugin({
+      !isCloud && new webpack.DefinePlugin({
         'process.VERSION': JSON.stringify({
           // eslint-disable-next-line global-require
           version: require('./package.json').version,
