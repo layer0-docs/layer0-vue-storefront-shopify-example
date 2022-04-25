@@ -2011,10 +2011,10 @@
     ts-loader "^8.2.0"
     uuid "^8.3.2"
 
-"@layer0/devtools@^3.13.3":
-  version "3.13.3"
-  resolved "https://registry.yarnpkg.com/@layer0/devtools/-/devtools-3.13.3.tgz#6ec38b305e899db43807b7840cf44c62d75d4da9"
-  integrity sha512-09V8kiLvlk5d2KoUYcN7uZ/oednuh5IbFULFayOWlrSv3ovTerDqcccr5UJQUaAtyNmuQneko4DSY/m4ttd+fw==
+"@layer0/devtools@^3.17.8":
+  version "3.17.8"
+  resolved "https://registry.yarnpkg.com/@layer0/devtools/-/devtools-3.17.8.tgz#65ea0df91e49f14b9ca75804c50b74d2138162cc"
+  integrity sha512-j8KYHvb/Km0RGapToprJnH9TKCZlDqrGhLC5drX55BDmbd8nRb9FPFlBZey1Q/VSKvcr38DUlVaIO71sTnPmOA==
   dependencies:
     clsx "^1.1.1"
     lodash "^4.17.20"
