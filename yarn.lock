@@ -1940,6 +1940,15 @@
     apollo-link-http "^1.5.17"
     lz-string "^1.4.4"
 
+"@layer0/apollo@^4.2.2":
+  version "4.13.8"
+  resolved "https://registry.yarnpkg.com/@layer0/apollo/-/apollo-4.13.8.tgz#f0734305898ff9c3b065a99b399aac5beefba4fa"
+  integrity sha512-cLPw9VZfVb8U0CHxks1Gk9IKRWsiRoLXm+hXGesJGo13ICu09J2GHPGDFziqp3wJl4smNLsruNalHqm4h9O0TA==
+  dependencies:
+    apollo-link-context "^1.0.20"
+    apollo-link-http "^1.5.17"
+    lz-string "^1.4.4"
+
 "@layer0/cli@^3.13.3":
   version "3.13.3"
   resolved "https://registry.yarnpkg.com/@layer0/cli/-/cli-3.13.3.tgz#dc8b373c50b76445d38a3a62db2d313b864f54b6"
@@ -2034,6 +2043,20 @@
     terminal-link "^2.1.1"
     workbox-webpack-plugin "^5.1.2"
 
+"@layer0/nuxt@^4.2.2":
+  version "4.13.8"
+  resolved "https://registry.yarnpkg.com/@layer0/nuxt/-/nuxt-4.13.8.tgz#622cb894b3f7a534cadc04cd3d55f1c3786429d4"
+  integrity sha512-Hl8jIY2r20aNBo0bkCEaSdCiZbJcXO0K4BLSWDAzINv5sl+RY2T8lBh+xheNjoDybjFJfrmAaBeiZRRlXdMzxA==
+  dependencies:
+    chalk "^4.1.2"
+    content-type "^1.0.4"
+    cross-spawn "^7.0.3"
+    fs-extra "^8.1.0"
+    lodash "^4.17.21"
+    ora "^4.1.1"
+    terminal-link "^2.1.1"
+    workbox-webpack-plugin "^5.1.2"
+
 "@layer0/prefetch@^3.13.3":
   version "3.13.3"
   resolved "https://registry.yarnpkg.com/@layer0/prefetch/-/prefetch-3.13.3.tgz#f1d29d1024f9ff3b9e38a9d3126970906adba137"
@@ -2048,13 +2071,13 @@
     workbox-routing "^5.1.2"
     workbox-strategies "^5.1.2"
 
-"@layer0/vue-storefront@^3.13.3":
-  version "3.13.3"
-  resolved "https://registry.yarnpkg.com/@layer0/vue-storefront/-/vue-storefront-3.13.3.tgz#36e19bba7673c70c88219cfc3f93f8d59b6c83ad"
-  integrity sha512-ir1ELQK53SESe8lYPwYnuv9dS/cji7uwDFwaQWdCHiyjujJ0UK8qaBp4PQLQzCyBi/HKQvcV8N3YtUvEJpbG+w==
+"@layer0/vue-storefront@^4.2.2":
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/@layer0/vue-storefront/-/vue-storefront-4.2.2.tgz#39aca3d0d1c55ebf0f1283daf8f99d3e9f251905"
+  integrity sha512-T+QOt3FLud5XSdEDNDbGkBQwfqZXbIZko3SkCXhFs6RIaNj8ar2fmfND+0Jq9v7Q4WiGhsDJh5OiPl4XHJ6mug==
   dependencies:
-    "@layer0/apollo" "^3.13.3"
-    "@layer0/nuxt" "^3.13.3"
+    "@layer0/apollo" "^4.2.2"
+    "@layer0/nuxt" "^4.2.2"
     cross-spawn "^7.0.3"
     fs-extra "^8.1.0"
     jscodeshift "^0.11.0"
@@ -4437,6 +4460,14 @@ chalk@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.0.tgz#4e14870a618d9e2edd97dd8345fd9d9dc315646a"
   integrity sha512-qwx12AxXe2Q5xQ43Ac//I6v5aXTipYrSESdOgzrN+9XjgEpyjpKuvSGaN4qE93f7TQTlerQQ8S+EQ0EyDoVL1A==
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
+
+chalk@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
+  integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
