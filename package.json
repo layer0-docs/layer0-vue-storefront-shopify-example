@@ -23,7 +23,7 @@
     "nuxt-i18n": "^6.5.0",
     "@layer0/apollo": "^3.13.3",
     "@layer0/cli": "^3.13.3",
-    "@layer0/core": "^3.13.3",
+    "@layer0/core": "^3.19.0",
     "@layer0/devtools": "^3.13.3",
     "@layer0/nuxt": "^3.13.3",
     "@layer0/prefetch": "^3.13.3",
